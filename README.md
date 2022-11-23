@@ -3,34 +3,36 @@ Esse projeto foi desenvolvido por Carolina Valdrighi para a empresa NG.CASH.
 Para roda-lo, siga as instruções:
 
 ### SERVER SIDE ###
-# `cd server`
+* acessar diretorio
+ `cd server`
 
 * instalar dependencias
-# `npm i`
+`npm i`
 
 * subir docker
-# `docker-compose up`
+`docker-compose up`
 
 * criar arquivo .env (seguir .env-example)
 
 * sincronizar ORM com o BD
-# `npx prisma db push`
+`npx prisma db push`
 
 * acessar ORM GUI para visualizar BD
-# `npx prisma studio`
+`npx prisma studio`
 
 * subir aplicação
-# `npm run start`
+`npm run start`
 
 
 ### CLIENT SIDE ###
-# `cd client`
+* acessar diretorio
+`cd client`
 
 * instalar dependencias
-# `npm i`
+`npm i`
 
 * subir aplicação
-# `npm run start`
+`npm run start`
 
 
 ### OBSERVAÇÕES ###

@@ -1,0 +1,22 @@
+Body {
+  background-image: url("assets/banner.jpg");
+  background-color: #cccccc;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.balance h5 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.table {
+  display: none;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+}
